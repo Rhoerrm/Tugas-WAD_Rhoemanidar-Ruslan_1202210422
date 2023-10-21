@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="testt.css">
+    <title>CV Portofolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-md">
+                    <a class="navbar-brand" href="#">CURRICULUM VITAE</a>
+                </div>
+            </nav>
+        </h1>
+    </header>
+    <div id="cvContainer" style="display: none;">
+        <h1>Rhoemanidar Ruslan</h1>
+        <p>CV Portofolio WAD</p>
+
+        <div class="container">
+            <section>
+                <div class="card" style="width: 20rem;">
+                    <img src="WIN_20230518_10_39_26_Pro.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Rhoemanidar Ruslan - Membuat CV - Tugas WAD Week 5 - SI4506 - 1202210422. Sekian dan Terimakasih.</p>
+                    </div>
+                </div>
+                <h2>Profil</h2>
+                <p>Hi, saya Rhoemanidar Ruslan, seorang Mahasiswa S1 Sistem Informasi yang saat ini menempuh pendidikan di Telkom University. Sebagai seorang mahasiswa Sistem Informasi, saya berkeinginan untuk menjadi Project Manager. Saya memiliki pengetahuan mendalam dalam berbagai aspek bisnis, strategi, dan manajemen waktu. Peran saya adalah membantu klien saya merumuskan dan mengimplementasikan solusi untuk meningkatkan kinerja bisnis mereka. Besar harapan saya untuk diterima.</p>
+            </section>
+            <section>
+                <h2>Pendidikan</h2>
+                <ul>
+                    <li><strong>SMP</strong> - SMP Al-Azhar Syifa Budi Pekanbaru II, 2015</li>
+                    <li><strong>SMA</strong> - SMA Negeri 05 Pekanbaru, 2018</li>
+                    <li><strong>Universitas</strong> - Telkom University, Currently Enrolled</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Pengalaman Organisasi</h2>
+                <ul>
+                    <li><strong>Jabatan</strong> - EIM Laboratory, 2021</li>
+                    <li><strong>Jabatan</strong> - AIESEC Winter Peak Future Leader, 2020</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Keahlian</h2>
+                <ul>
+                    <li>HTML dan CSS</li>
+                    <li>Good in English</li>
+                    <li>Data Science</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Portofolio</h2>
+                <p>Daftar beberapa proyek atau pekerjaan yang telah Anda selesaikan bersama dengan deskripsi singkat. Ini contohnya saya lagi mengerjakan portofolio, semoga berhasil.</p>
+            </section>
+            <section>
+                <h2>Kontak</h2>
+                <p>Email: rhoerrm@gmail.com</p>
+                <p>Telepon: +6280224638609</p>
+                <p>Alamat: Bandung, Jawa Barat</p>
+            </section>
+        </div>
+    </div>
+    <button class="btn border-2 p-3 rounded-xl" type="button" onclick="tampilkanCV()">Tampilkan CV</button>
+
+    <!-- Tautan Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        // Fungsi untuk menampilkan CV saat tombol diklik menggunakan JavaScript
+        function tampilkanCV() {
+            var cvContainer = document.getElementById("cvContainer");
+            cvContainer.style.display = "block"; // Menampilkan elemen CV
+        }
+    </script>
+</body>
+</html>
